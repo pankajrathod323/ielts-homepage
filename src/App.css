@@ -1,0 +1,73 @@
+/* ===== CSS Variables ===== */
+:root {
+  --primary-color: #0077ff;
+  --primary-hover-color: #005fcc;
+  --heading-color: #222;
+  --text-color: #333;
+  --text-secondary-color: #555;
+  --bg-light: #ffffff;
+  --bg-medium: #f5f7fa;
+  --bg-dark: #222;
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth; /* smooth scrolling for anchor links */
+  font-family: var(--font-family);
+}
+
+/* ===== Body Styling ===== */
+body {
+  background-color: #f9f9f9;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* ===== Links Styling ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Buttons Styling ===== */
+button, .btn, .btn-hero {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+/* ===== Images ===== */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Utility Classes ===== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ===== Responsive Helpers ===== */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}

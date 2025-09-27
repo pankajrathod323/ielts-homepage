@@ -1,0 +1,64 @@
+.features {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  min-height: 100vh; /* Make section at least full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #f5f7fa;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px; /* Increased width */
+  min-height: 220px; /* Added minimum height for uniformity */
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card i {
+  font-size: 2rem;
+  color: #0077ff;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .feature-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
