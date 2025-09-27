@@ -1,16 +1,43 @@
-# React + Vite
+# IELTS Institute Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Modern responsive homepage for an IELTS institute
+- Hero section with call-to-action
+- Features section highlighting institute strengths
+- Testimonials from students
+- Navigation bar and footer
+- Clean and modular React component structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## React Compiler
+This project uses [Vite](https://vitejs.dev/) for fast development and build.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Install dependencies:
+	```powershell
+	npm install
+	```
+
+2. Start the development server:
+	```powershell
+	npm run dev
+	```
+
+3. Open your browser and go to the local address shown in the terminal (usually http://localhost:5173/).
+
+### Building for Production
+
+To build the project for production:
+
+```powershell
+npm run build
+```
+
+The output will be in the `dist` folder.
