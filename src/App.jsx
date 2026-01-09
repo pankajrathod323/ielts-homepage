@@ -3,7 +3,10 @@ import Home from "./pages/Home";
 import "./App.css"; // optional global styles
 
 function App() {
-  return <Home />;
+ return  <>
+   <Home />;
+  </>
+
 }
 
 export default App;
