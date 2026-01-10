@@ -61,7 +61,7 @@ img {
 /* ===== Utility Classes ===== */
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1199px;
   margin: 0 auto;
 }
 
