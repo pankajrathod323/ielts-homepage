@@ -68,6 +68,6 @@ img {
 /* ===== Responsive Helpers ===== */
 @media (max-width: 768px) {
   .container {
-    width: 95%;
+    width: 96%;
   }
 }
