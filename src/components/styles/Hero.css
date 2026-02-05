@@ -53,7 +53,7 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .hero {
     flex-direction: column-reverse;
     text-align: center;
